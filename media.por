@@ -1,18 +1,18 @@
 programa {
   funcao inicio() {
-   //algoritimo do cálculo de media
+   //algoritimo do cÃ¡lculo de media
 
-//Decalarações de variaveis
+//DecalaraÃ§Ãµes de variaveis
 real nota1, nota2, nota3, nota4, media
 
-//Atribuição das notas
-escreva ("Dgite a rota do 1° bimestre: ")
+//AtribuiÃ§Ã£o das notas
+escreva ("Dgite a rota do 1Â° bimestre: ")
 leia(nota1)
-escreva("Digite a nota do 2° bimestre ")
+escreva("Digite a nota do 2Â° bimestre ")
 leia(nota2)
-escreva("Digite a nota do 3° bimestre: ")
+escreva("Digite a nota do 3Â° bimestre: ")
 leia(nota3)
-escreva("Digite a nota do 4° Bimestre: ")
+escreva("Digite a nota do 4Â° Bimestre: ")
 leia(nota4)
 
 //calculo da media
@@ -21,7 +21,7 @@ media = (nota1 + nota2 + nota3 + nota4) /4
 //Exibindo o resultado final
 escreva("A media final =", media) 
 
-//Estrutura da decisão
+//Estrutura da decisÃ£o
 se(media >= 80){
   escreva("\nAluno aprovado.")
 } senao {
